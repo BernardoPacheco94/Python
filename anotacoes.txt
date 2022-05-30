@@ -1,0 +1,3 @@
+TypeError: erro no tipo de variável (usar sting pra somar com interiro)
+
+
