@@ -1,8 +1,9 @@
-from datetime import date
+from datetime import datetime
 
-data_nasc = date(1994,12,31)
-hoje = date.today()
+antiga = datetime(2000, 11, 28, 14, 30, 25)
+agora = datetime.now()
 
 
-print(data_nasc)
-print(hoje)
+#print(f'Hoje é:{antiga.date()} e horario: {antiga.time()}')
+
+print((agora - antiga).days)
