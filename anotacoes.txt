@@ -26,3 +26,24 @@ atributos:
 
 métodos:
 riscar
+
+----------------------------------------
+
+Dependencias:
+Podem haver algumas classes que impedem a execução de outras ao mesmo tempo.
+
+Ex:
+
+class Cachorro:
+    nome
+    raca
+    tamanho
+    pelo
+    status #varável controladora
+
+    def dormir():
+         
+    def comer(): #se estiver dormindo não pode executar a ação comer
+
+    def correr: #se estiver dormindo não pode executar a ação comer
+
