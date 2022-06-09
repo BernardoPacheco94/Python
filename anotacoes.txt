@@ -1,3 +1,28 @@
-TypeError: erro no tipo de variável (usar sting pra somar com interiro)
+ORIENTAÇÃO A OBJETOS:
 
 
+Classificação tem:
+-Caracteristicas (substantivos)
+-Ações (verbos)
+-Estado
+
+
+Criação de classes:
+Possui atributos, que são as características, que descrevem uma classe
+
+--------------MODELAGEM POO------------
+* Características dos itens = atributos
+* Ações = métodos
+* Estado
+
+EX:
+Classe - Caneta
+
+atributos:
+-cor
+-tamanho
+-modelo
+-qtd_tinta
+
+métodos:
+riscar
