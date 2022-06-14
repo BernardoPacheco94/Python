@@ -11,6 +11,7 @@ class Pessoa:
         data_atual = datetime.now()
         self.data_nascimento = datetime.strptime(self.data_nascimento, '%d/%m/%Y').date()
         idade = (data_atual.date()-self.data_nascimento)/365
+        self.data_nascimento = self.data_nascimento.strftime('%d/%m/%Y')#correcao para poder fazer o loop
         return idade.days
     
     def criar_cartao(self):
